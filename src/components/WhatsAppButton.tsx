@@ -60,10 +60,7 @@ const WhatsAppButton = () => {
           className="absolute inset-[-4px] border-2 border-[#25D366] rounded-full -z-10"
         />
         
-        {/* Notification Badge */}
-        <div className="absolute top-0 right-0 w-4 h-4 bg-barber-red rounded-full border-2 border-space-black flex items-center justify-center">
-          <div className="w-1.5 h-1.5 bg-white rounded-full animate-ping" />
-        </div>
+
       </motion.a>
     </div>
   );

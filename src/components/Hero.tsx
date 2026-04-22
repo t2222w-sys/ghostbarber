@@ -29,16 +29,7 @@ const Hero = ({ onBookingOpen }: { onBookingOpen: () => void }) => {
           transition={{ duration: 1, ease: "easeOut" }}
           className="text-center lg:text-left relative"
         >
-          {/* Scarcity Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.2 }}
-            className="inline-flex items-center gap-2 px-3 py-1 bg-barber-red/10 border border-barber-red/20 rounded-full mb-6"
-          >
-            <div className="w-1.5 h-1.5 bg-barber-red rounded-full animate-pulse" />
-            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-barber-red">Apenas 3 vagas para esta semana</span>
-          </motion.div>
+
 
           <h1 className="text-4xl md:text-8xl font-black leading-tight md:leading-none tracking-tighter mb-6 italic uppercase">
             <span className="text-white">GHOST</span> <br />

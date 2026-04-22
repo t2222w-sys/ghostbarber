@@ -25,14 +25,7 @@ const Navbar = ({ onBookingOpen }: { onBookingOpen: () => void }) => {
               whileHover={{ scale: 1.05 }}
               className="flex items-center gap-2 md:gap-3"
             >
-              <div className="relative w-8 h-8 md:w-10 md:h-10 rounded-full overflow-hidden border border-white/10">
-                <Image 
-                  src="/images/logo.jpg" 
-                  alt="GhostBarber Logo" 
-                  fill 
-                  className="object-cover"
-                />
-              </div>
+
               <div className="flex flex-col">
                 <span className="text-base md:text-lg font-black tracking-tighter text-white uppercase italic leading-none">
                   GHOST<span className="text-vintage-bronze">BARBER</span>
